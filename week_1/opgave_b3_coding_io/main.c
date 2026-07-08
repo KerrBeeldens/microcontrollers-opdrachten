@@ -12,13 +12,13 @@ int main(void)
 	while(1)
 	{
 		
-		if(PIND & BIT(0)) 
+		if(PIND & BIT(0)) // Test if D0 is HIGH
 		{
-			PORTD ^= BIT(7);
+			PORTD ^= BIT(7); // Toggle D7
 		} 
 		else
 		{
-			PORTD &= ~BIT(7);
+			PORTD &= ~BIT(7); // turn off D7
 		}
 		
 		_delay_ms(500);
