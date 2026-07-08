@@ -7,6 +7,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_b2_coding_io", "opga
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_b3_coding_io", "opgave_b3_coding_io\opgave_b3_coding_io.cproj", "{5358168C-93ED-429D-A673-199C644147C3}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_b4_coding_led_patterns", "opgave_b4_coding_led_patterns\opgave_b4_coding_led_patterns.cproj", "{0231EFD4-0990-467B-B44D-6A79CE449965}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -21,6 +23,10 @@ Global
 		{5358168C-93ED-429D-A673-199C644147C3}.Debug|AVR.Build.0 = Debug|AVR
 		{5358168C-93ED-429D-A673-199C644147C3}.Release|AVR.ActiveCfg = Release|AVR
 		{5358168C-93ED-429D-A673-199C644147C3}.Release|AVR.Build.0 = Release|AVR
+		{0231EFD4-0990-467B-B44D-6A79CE449965}.Debug|AVR.ActiveCfg = Debug|AVR
+		{0231EFD4-0990-467B-B44D-6A79CE449965}.Debug|AVR.Build.0 = Debug|AVR
+		{0231EFD4-0990-467B-B44D-6A79CE449965}.Release|AVR.ActiveCfg = Release|AVR
+		{0231EFD4-0990-467B-B44D-6A79CE449965}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
