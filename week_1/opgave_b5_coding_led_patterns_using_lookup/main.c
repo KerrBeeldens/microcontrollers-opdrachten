@@ -5,9 +5,7 @@
 
 #define BIT(x) (1 << (x))
 
-int main(void)
-{
-	
+int main(void) {
 	DDRD = 0b11111111; // Make pins D0 t/m D7 output
 	
 	// create a lookup table with some led patterns
@@ -30,11 +28,9 @@ int main(void)
 		0b10100101, 0b01011010, 0b00000000,
 	};
 	
-	while (1)
-	{
+	while (1) {
 		// Go over each value in the lookup table
-		for (int i = 0; i < 79; i++)
-		{
+		for (int i = 0; i < 79; i++) {
 			PORTD = lookupTable[i];
 			_delay_ms(100);
 		}

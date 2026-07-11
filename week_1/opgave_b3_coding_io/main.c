@@ -5,19 +5,13 @@
 
 #define BIT(x) (1 << (x))
 
-int main(void)
-{
+int main(void) {
 	DDRD |=  BIT(7); // Make D7 output
 	
-	while(1)
-	{
-		
-		if(PIND & BIT(0)) // Test if D0 is HIGH
-		{
+	while(1) {
+		if(PINC & BIT(0)) { // Test if C0 is HIGH
 			PORTD ^= BIT(7); // Toggle D7
-		} 
-		else
-		{
+		} else {
 			PORTD &= ~BIT(7); // turn off D7
 		}
 		

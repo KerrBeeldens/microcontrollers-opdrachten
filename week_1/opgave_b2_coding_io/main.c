@@ -5,13 +5,12 @@
 
 #define BIT(x) (1 << (x))
 
-int main(void)
-{
-	DDRA |= BIT(6) | BIT(7); // Make pin 6 and 7 output
+int main(void) {
+	DDRD |= BIT(6) | BIT(7); // Make pin D6 and D7 output
+	PORTD |= BIT(6); // Turn pin D6 on (D7 stays off)
 	
-    while(1)
-    {
-        PORTA ^= BIT(6) | BIT(7); // Toggle pin 6 and 7
-		_delay_ms(1500);
+    while(1) {
+        PORTD ^= BIT(6) | BIT(7); // Toggle pin D6 and D7
+		_delay_ms(500);
     }
 }
