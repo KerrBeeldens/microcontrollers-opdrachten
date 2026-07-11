@@ -24,8 +24,8 @@ ISR(INT0_vect) {
 	PORTD &= ~BIT(0); // Clear D0
 
 	PORTC <<= 1; // Shift the LED one position to the left
-	if (PORTC == 0) PORTC = BIT(0);           
-	_delay_ms(150);          
+	if (PORTC == 0) PORTC = BIT(0);
+	_delay_ms(150);
 	
 	PORTD |= BIT(1); // Set D1 high to trigger INT1
 }
@@ -34,8 +34,8 @@ ISR(INT1_vect) {
 	PORTD &= ~BIT(1); // Clear D1
 
 	PORTC <<= 1; // Shift the LED one position to the left
-	if (PORTC == 0) PORTC = BIT(0);           
-	_delay_ms(150);          
+	if (PORTC == 0) PORTC = BIT(0);
+	_delay_ms(150);
 	
 	PORTD |= BIT(0); // Set D0 high to trigger INT0
 }
