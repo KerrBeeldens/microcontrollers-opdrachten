@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_b2_io_interrupts", "opgave_b2_io_interrupts\opgave_b2_io_interrupts.cproj", "{2285C48D-296E-43FD-A7B6-69885F64CFFD}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_b3_coding_7_segment_display", "opgave_b3_coding_7_segment_display\opgave_b3_coding_7_segment_display.cproj", "{275477E8-630F-4CFA-8969-3DE60946A812}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_b4_coding_7_segment_display_fun", "opgave_b4_coding_7_segment_display_fun\opgave_b4_coding_7_segment_display_fun.cproj", "{4C6E8562-E938-4B53-AECB-DCED6D812A6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Debug|AVR.ActiveCfg = Debug|AVR
+		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Debug|AVR.Build.0 = Debug|AVR
+		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Release|AVR.ActiveCfg = Release|AVR
+		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Release|AVR.Build.0 = Release|AVR
+		{275477E8-630F-4CFA-8969-3DE60946A812}.Debug|AVR.ActiveCfg = Debug|AVR
+		{275477E8-630F-4CFA-8969-3DE60946A812}.Debug|AVR.Build.0 = Debug|AVR
+		{275477E8-630F-4CFA-8969-3DE60946A812}.Release|AVR.ActiveCfg = Release|AVR
+		{275477E8-630F-4CFA-8969-3DE60946A812}.Release|AVR.Build.0 = Release|AVR
+		{4C6E8562-E938-4B53-AECB-DCED6D812A6E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{4C6E8562-E938-4B53-AECB-DCED6D812A6E}.Debug|AVR.Build.0 = Debug|AVR
+		{4C6E8562-E938-4B53-AECB-DCED6D812A6E}.Release|AVR.ActiveCfg = Release|AVR
+		{4C6E8562-E938-4B53-AECB-DCED6D812A6E}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
