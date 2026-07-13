@@ -27,7 +27,7 @@ const unsigned char numbers [17] = {
 };
 
 
-void display(int digit) {
+void displayDigit(int digit) {
 	int digitLocal = digit;
 	if (digit > 15 || digit < 0) digitLocal = 16;
 	
@@ -38,7 +38,7 @@ int main(void) {
 	DDRB = 0b11111111;  // Make B0 t/m B7 output
 	
 	int count = 0;
-	display(count);
+	displayDigit(count);
 	int previousButtons = 0;
 
 	while (1) {
@@ -47,21 +47,19 @@ int main(void) {
 		// Both buttons pressed
 		if (buttons == (BIT(0) | BIT(1))) {
 			count = 0;
-			display(count);
 		}
 		
 		// Button 0 pressed
 		if ((buttons & BIT(0)) && !(previousButtons & BIT(0))) {
 			if (count < 15) count++;
-			display(count);
 		}
 		
 		// Button 1 pressed
 		if ((buttons & BIT(1)) && !(previousButtons & BIT(1))) {
 			if (count > 0) count--;
-			display(count);
 		}
-
+		
+		displayDigit(count);
 		previousButtons = buttons;
 		_delay_ms(50); // debounce
 	}
