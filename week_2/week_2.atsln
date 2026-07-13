@@ -9,6 +9,10 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_b3_coding_7_segment_
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_b4_coding_7_segment_display_fun", "opgave_b4_coding_7_segment_display_fun\opgave_b4_coding_7_segment_display_fun.cproj", "{4C6E8562-E938-4B53-AECB-DCED6D812A6E}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_b5_coding_lcd_module", "opgave_b5_coding_lcd_module\opgave_b5_coding_lcd_module.cproj", "{E29ECF66-09D8-4AB4-8CEB-F487BD77B87A}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opgave_a2_kennismaken_lcd_module", "opgave_a2_kennismaken_lcd_module\opgave_a2_kennismaken_lcd_module.cproj", "{73BAC605-4324-45FD-9997-2068D0AAEB8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -27,6 +31,14 @@ Global
 		{4C6E8562-E938-4B53-AECB-DCED6D812A6E}.Debug|AVR.Build.0 = Debug|AVR
 		{4C6E8562-E938-4B53-AECB-DCED6D812A6E}.Release|AVR.ActiveCfg = Release|AVR
 		{4C6E8562-E938-4B53-AECB-DCED6D812A6E}.Release|AVR.Build.0 = Release|AVR
+		{E29ECF66-09D8-4AB4-8CEB-F487BD77B87A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{E29ECF66-09D8-4AB4-8CEB-F487BD77B87A}.Debug|AVR.Build.0 = Debug|AVR
+		{E29ECF66-09D8-4AB4-8CEB-F487BD77B87A}.Release|AVR.ActiveCfg = Release|AVR
+		{E29ECF66-09D8-4AB4-8CEB-F487BD77B87A}.Release|AVR.Build.0 = Release|AVR
+		{73BAC605-4324-45FD-9997-2068D0AAEB8B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{73BAC605-4324-45FD-9997-2068D0AAEB8B}.Debug|AVR.Build.0 = Debug|AVR
+		{73BAC605-4324-45FD-9997-2068D0AAEB8B}.Release|AVR.ActiveCfg = Release|AVR
+		{73BAC605-4324-45FD-9997-2068D0AAEB8B}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
